@@ -1,0 +1,9 @@
+Model,R_squared
+Model 1 (extended basic),0.44339755301441097
+Model 2 (+ categorical),0.5390197098226976
+Model 3 (log transform),0.5845552060245038
+Model 4 (+ interactions),0.5865915978668782
+Model 5 (stepwise),0.5865915978668782
+Model 6 (Ridge),0.9197978617220729
+Model 7 (Lasso),0.9198653254478575
+Model 8 (Random Forest),0.9815747900097328

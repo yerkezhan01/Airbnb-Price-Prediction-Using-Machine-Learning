@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  # Python сервис для анализа данных
+  python-analysis:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: sds311-python
+    volumes:
+      - ./data:/app/data
+      - ./results:/app/results
+      - ./airbnb_regression_analysis.py:/app/airbnb_regression_analysis.py
+    working_dir: /app
+    command: python airbnb_regression_analysis.py
+
+  # Next.js сервис (для будущего использования)
+  nextjs-app:
+    build:
+      context: .
+      dockerfile: Dockerfile.nextjs
+    container_name: sds311-nextjs
+    volumes:
+      - ./web:/app/web
+      - ./results:/app/public/results
+    working_dir: /app
+    ports:
+      - "3000:3000"
+    profiles:
+      - web
+    environment:
+      - NODE_ENV=development
+    # Раскомментировать когда будет готов Next.js проект:
+    # command: npm run dev
+

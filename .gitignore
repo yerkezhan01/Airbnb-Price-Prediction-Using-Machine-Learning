@@ -1,0 +1,24 @@
+
+# Временные файлы
+*.pdf
+*.png.bak
+*.csv.bak
+
+# Большие файлы данных (теперь через Git LFS)
+# data/reviews_gz.csv - теперь через LFS
+data/listings_gz.csv
+# Результаты моделей (опционально - можно закоммитить)
+# results/models.pkl
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+

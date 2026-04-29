@@ -1,0 +1,63 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Docker
+Dockerfile*
+docker-compose.yml
+.dockerignore
+
+# Результаты (будут генерироваться)
+results/plots/*.png
+results/*.csv
+*.RData
+
+# Временные файлы
+*.pdf
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Документация
+README.md
+HOW_TO_ADD_CONTRIBUTORS.md
+CONTRIBUTORS.md
+
+# Большие файлы (кроме тех что через LFS)
+data/listings_gz.csv
+models.RData
+
+# Trash
+trash/
+
+# Python (если будет)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Node.js (если будет)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.next/
+out/
+dist/
+

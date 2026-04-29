@@ -1,0 +1,4 @@
+id,name,host_id,neighbourhood,room_type,price,minimum_nights,number_of_reviews,rating,accommodates
+1,Cozy Apartment in Center,101,Centrum,Entire home/apt,150,2,120,4.8,2
+2,Large Room with Canal View,102,West,Private room,80,1,45,4.5,1
+3,Luxury Penthouse,103,Zuid,Entire home/apt,400,3,12,5.0,6
