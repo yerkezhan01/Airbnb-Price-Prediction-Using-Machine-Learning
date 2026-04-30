@@ -2,7 +2,7 @@
 
 Regression analysis project for Airbnb pricing in Amsterdam.
 
-https://insideairbnb.com/get-the-data/
+https://ru.airbnb.com/amsterdam-netherlands/stays?_set_bev_on_new_domain=1777534742_EAMDJmOGQ2NDBlYm&set_everest_cookie_on_new_domain=1777534742.EANWVmYmYwMmE3YmY2NT.bONyNvz9JbiIQckxjjcLqqBnjkr74t-Hh-9fJ41jDt4
 
 ## Project Structure
 
